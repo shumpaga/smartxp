@@ -22,8 +22,7 @@
   width: 100%;
   height: 100%;
 }
-
-.slide .title {
+.slide .title h2 {
   position: absolute;
   top: 35%;
   margin-left: 8%;
@@ -36,12 +35,11 @@
   line-height: 50px;
   color: #ffffff;
 }
-
-.slide .title strong {
+.slide .title h2 strong {
   font-weight: bold;
 }
 
-.slide.small-width .title {
+.slide.small-width .title h2 {
   top: 22%;
   font-size: 30px;
   line-height: 35px;
@@ -60,6 +58,21 @@
   font-size: 16px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.85);
+}
+.slide .title.header h2,
+.slide .text.header {
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+  width: 84%;
+}
+.slide .text.header {
+  top: 50%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
 }
 .slide.small-width .text {
   width: 80%;

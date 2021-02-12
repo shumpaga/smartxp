@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <header className={`navbar ${width > 600 ? '' : 'small-width'}`}>
       <div className='logo'>
-        <a href='#home'>
+        <a href='/'>
           <img
             src={process.env.PUBLIC_URL + '/logo-menu.svg'}
             alt='Logo'
@@ -20,12 +20,12 @@ const Navbar = () => {
         <nav className='navigation'>
           <ul>
             <li>
-              <a className='font font-16' href='#home'>
+              <a className='font font-16' href='/'>
                 Accueil
               </a>
             </li>
             <li>
-              <a className='font font-16' href='#home'>
+              <a className='font font-16' href='#services'>
                 Services
               </a>
             </li>
@@ -33,7 +33,7 @@ const Navbar = () => {
               <a href='#realisations'>Réalisations</a>
             </li>
             <li>
-              <YellowBtn text='Nous contacter' link='#contact' />
+              <YellowBtn text='Nous contacter' link='/contact' />
             </li>
           </ul>
         </nav>

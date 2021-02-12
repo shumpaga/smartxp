@@ -2,7 +2,7 @@ import YellowBtn from '../Utils/YellowBtn';
 import './singleSlide.scss';
 import { useWindowWidth } from '@react-hook/window-size';
 
-const SingleSlide = ({ filename, title, text }) => {
+const SingleSlide = ({ filename, title, text, header = false }) => {
   const width = useWindowWidth();
   return (
     <div className={`slide ${width > 600 ? '' : 'small-width'}`}>
@@ -16,9 +16,11 @@ const SingleSlide = ({ filename, title, text }) => {
         alt={'Slide Mask'}
         src={`${process.env.PUBLIC_URL}/slider/mask.svg`}
       />
-      <div className='title'>{title}</div>
-      <div className='text'>{text}</div>
-      <YellowBtn text='Parlez nous de vos projets' link='#contact' />
+      <div className={`title ${header ? 'header' : ''}`}>{title}</div>
+      <div className={`text ${header ? 'header' : ''} `}>{text}</div>
+      {!header && (
+        <YellowBtn text='Parlez nous de vos projets' link='/contact' />
+      )}
     </div>
   );
 };
