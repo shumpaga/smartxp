@@ -1,0 +1,42 @@
+.section-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.section-title {
+  margin-top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #556ee6;
+}
+.section-title strong {
+  font-family: Rubik;
+  font-weight: bold;
+}
+.section-descr {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #74788d;
+  max-width: 500px;
+  margin-bottom: 80px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

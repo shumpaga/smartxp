@@ -1,17 +1,18 @@
 .navbar {
   width: 100%;
   max-width: 100%;
-  min-height: 6vh;
+  min-height: 3vh;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
-  padding: 50px 100px 50px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .navbar.small-width {
   padding: 50px 50px 50px 50px;

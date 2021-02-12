@@ -1,0 +1,48 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.service-title h3 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 10px 10px 0px 20px;
+
+  max-width: 210px;
+}
+.service-title.blue {
+  background: #556ee6;
+}
+.service-title.red {
+  background: #f46a6a;
+}
+.service-title.green {
+  background: #34c38f;
+}
+.service-descr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 12px 24px rgba(18, 38, 63, 0.0313726);
+  border-radius: 4px;
+  padding: 30px 60px 30px 60px;
+  margin-bottom: 30px;
+}
+.service-descr p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.service-descr img {
+  padding-right: 60px;
+}

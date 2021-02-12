@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Layout/Navbar';
+import Services from './Layout/Services';
 import Slider from './Layout/Slider';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div className=''>
           <Navbar />
           <Slider />
+          <Services />
           <div style={{ background: 'blue', height: '1000px', zIndex: '2' }}>
             BODY
           </div>
