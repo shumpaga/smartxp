@@ -8,13 +8,12 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.section-services img {
+.section-services .section-img {
   width: 50%;
 }
-
 .services {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

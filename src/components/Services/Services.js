@@ -40,6 +40,7 @@ const Services = () => {
       <div className='section-content'>
         {width > 900 && (
           <img
+            className='section-img'
             alt={'Les services de SmartXP'}
             src={`${process.env.PUBLIC_URL}/services/services-img.svg`}
           />
