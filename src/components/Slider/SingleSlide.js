@@ -1,4 +1,4 @@
-import YellowBtn from './YellowBtn';
+import YellowBtn from '../Utils/YellowBtn';
 import './singleSlide.scss';
 import { useWindowWidth } from '@react-hook/window-size';
 

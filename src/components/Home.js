@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import Clients from './Layout/Clients';
-import Footer from './Layout/Footer';
-import Navbar from './Layout/Navbar';
-import Services from './Layout/Services';
-import Slider from './Layout/Slider';
+import Clients from './Clients/Clients';
+import Services from './Services/Services';
+import Slider from './Slider/Slider';
+import Footer from './Utils/Footer';
+import Navbar from './Utils/Navbar';
 
 const Home = () => {
   return (
