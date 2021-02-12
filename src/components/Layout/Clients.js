@@ -1,10 +1,12 @@
 import React from 'react';
+import { useWindowWidth } from '@react-hook/window-size';
 import TextLoop from 'react-text-loop';
 import './clients.scss';
 
 const Clients = () => {
+  const width = useWindowWidth();
   return (
-    <div className='section-clients'>
+    <div className={`section-clients ${width > 600 ? '' : 'small-width'} `}>
       <div className='clients'>
         <div className='clients-blur'> </div>
         <div className='clients-content'>

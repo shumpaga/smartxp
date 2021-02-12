@@ -12,7 +12,6 @@
   line-height: 19px;
   color: #ffffff;
   padding: 10px 10px 0px 20px;
-
   max-width: 210px;
 }
 .service-title.blue {
@@ -35,6 +34,9 @@
   padding: 30px 60px 30px 60px;
   margin-bottom: 30px;
 }
+.tablet-width .service-descr {
+  padding: 10px 30px 10px 30px;
+}
 .service-descr p {
   font-family: Rubik;
   font-style: normal;
@@ -44,5 +46,9 @@
   color: #000000;
 }
 .service-descr img {
+  width: 42px;
   padding-right: 60px;
+}
+.tablet-width .service-descr img {
+  padding-right: 20px;
 }

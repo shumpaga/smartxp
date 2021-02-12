@@ -1,4 +1,5 @@
 import React from 'react';
+import { useWindowWidth } from '@react-hook/window-size';
 import SingleService from './SingleService';
 import './services.scss';
 
@@ -23,8 +24,13 @@ const Services = () => {
       title: 'Data, Machine learning & DevOps',
     },
   ];
+  const width = useWindowWidth();
   return (
-    <div className='section-main section-services'>
+    <div
+      className={`section-main section-services ${
+        width > 900 ? '' : 'tablet-width'
+      }`}
+    >
       <h2 className='section-title'>
         Nos <strong>Services</strong>
       </h2>
@@ -32,10 +38,12 @@ const Services = () => {
         Agence full-services, stratégie, conception et développement.
       </p>
       <div className='section-content'>
-        <img
-          alt={'Les services de SmartXP'}
-          src={`${process.env.PUBLIC_URL}/services/services-img.svg`}
-        />
+        {width > 900 && (
+          <img
+            alt={'Les services de SmartXP'}
+            src={`${process.env.PUBLIC_URL}/services/services-img.svg`}
+          />
+        )}
         <div className='services'>
           {services.map((service) => (
             <SingleService {...service} />

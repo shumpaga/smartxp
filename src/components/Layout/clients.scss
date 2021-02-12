@@ -8,8 +8,8 @@
   text-align: center;
   position: absolute;
   top: -50px;
-  left: 25%;
-  width: 50%;
+  left: 10%;
+  width: 80%;
   align-self: center;
 }
 .clients-text-loop {
@@ -21,8 +21,8 @@
   font-family: Rubik;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 3vw;
+  line-height: 4vw;
   color: #ffffff;
   width: 80%;
 }
@@ -47,6 +47,7 @@
 .clients-content img {
   margin: auto;
   width: 20%;
+  min-width: 100px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   opacity: 0.5;

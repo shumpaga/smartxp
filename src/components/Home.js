@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Clients from './Layout/Clients';
+import Footer from './Layout/Footer';
 import Navbar from './Layout/Navbar';
 import Services from './Layout/Services';
 import Slider from './Layout/Slider';
@@ -11,6 +12,7 @@ const Home = () => {
       <Slider />
       <Services />
       <Clients />
+      <Footer />
     </Fragment>
   );
 };
