@@ -1,22 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Clients from './Layout/Clients';
 import Navbar from './Layout/Navbar';
 import Services from './Layout/Services';
 import Slider from './Layout/Slider';
 
 const Home = () => {
   return (
-    <div className=''>
-      <div className=''>
-        <div className=''>
-          <Navbar />
-          <Slider />
-          <Services />
-          <div style={{ background: 'blue', height: '1000px', zIndex: '2' }}>
-            BODY
-          </div>
-        </div>
-      </div>
-    </div>
+    <Fragment>
+      <Navbar />
+      <Slider />
+      <Services />
+      <Clients />
+    </Fragment>
   );
 };
 

@@ -1,6 +1,5 @@
 import Slider from 'react-slick';
 import SingleSlide from './SingleSlide';
-import { useWindowWidth } from '@react-hook/window-size';
 import './slider.scss';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -35,7 +34,6 @@ const VerticalSlider = () => {
     },
   ];
 
-  const width = useWindowWidth();
   const settings = {
     dots: true,
     arrows: false,
