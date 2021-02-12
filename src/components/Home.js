@@ -1,13 +1,21 @@
-import React, { Fragment } from 'react';
-/*
-import PropTypes from 'prop-types';
-import { useForm } from 'react-hook-form';
-import validator from 'validator';
-import ContentHeader from './ContentHeader';
-*/
+import React from 'react';
+import Navbar from './Layout/Navbar';
+import Slider from './Layout/Slider';
 
 const Home = () => {
-  return <Fragment>HOME</Fragment>;
+  return (
+    <div className=''>
+      <div className=''>
+        <div className=''>
+          <Navbar />
+          <Slider />
+          <div style={{ background: 'blue', height: '1000px', zIndex: '2' }}>
+            BODY
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;

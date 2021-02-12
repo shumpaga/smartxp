@@ -1,0 +1,80 @@
+.slide {
+  background: rgba(52, 92, 235);
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 600px;
+}
+.slide.small-width {
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.22;
+}
+
+.mask {
+  position: absolute;
+  object-fit: cover;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.slide .title {
+  position: absolute;
+  top: 35%;
+  margin-left: 8%;
+  margin-right: 8%;
+  z-index: 1;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.slide .title strong {
+  font-weight: bold;
+}
+
+.slide.small-width .title {
+  top: 22%;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.slide .text {
+  position: absolute;
+  top: 55%;
+  margin-left: 8%;
+  margin-right: 8%;
+  z-index: 1;
+  width: 40%;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.slide.small-width .text {
+  width: 80%;
+  top: 53%;
+}
+
+.slide a {
+  position: absolute;
+  bottom: 20%;
+  margin-left: 8%;
+  margin-right: 8%;
+  z-index: 1;
+}
+.slide.small-width a {
+  bottom: 10%;
+}
