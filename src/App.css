@@ -16,6 +16,12 @@
   letter-spacing: 1px;
   color: #556ee6;
 }
+.small-width .section-title {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
 .section-title strong {
   font-family: Rubik;
   font-weight: bold;
@@ -32,6 +38,11 @@
   color: #74788d;
   max-width: 500px;
   margin-bottom: 80px;
+}
+.small-width .section-descr {
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 30px;
 }
 
 .section-content {

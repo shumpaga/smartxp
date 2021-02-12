@@ -15,16 +15,14 @@
   padding-right: 100px;
 }
 .navbar.small-width {
-  padding: 50px 50px 50px 50px;
+  padding: 50px 30px 50px 30px;
 }
 .small-width .logo {
   width: 100%;
 }
 .small-width .logo img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 80%;
+  max-width: 180px;
 }
 .navigation {
   ul {

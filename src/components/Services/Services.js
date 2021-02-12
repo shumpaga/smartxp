@@ -25,12 +25,10 @@ const Services = () => {
     },
   ];
   const width = useWindowWidth();
+  const widthSize =
+    width > 900 ? '' : width > 600 ? 'tablet-width' : 'small-width';
   return (
-    <div
-      className={`section-main section-services ${
-        width > 900 ? '' : 'tablet-width'
-      }`}
-    >
+    <div className={`section-main section-services ${widthSize}`}>
       <h2 className='section-title'>
         Nos <strong>Services</strong>
       </h2>

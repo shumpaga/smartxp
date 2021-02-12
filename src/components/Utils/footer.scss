@@ -4,6 +4,12 @@
   justify-content: center;
   align-items: center;
   padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+}
+.footer.small-width {
+  padding: 10px;
 }
 .footer .row1 {
   display: flex;
@@ -15,8 +21,10 @@
 .footer.small-width .row1 {
   flex-direction: column;
 }
-
 .footer .row1-mail {
+  width: 50%;
+}
+.footer .row1-mail h3 {
   font-family: Rubik;
   font-style: normal;
   font-weight: 500;
@@ -24,8 +32,13 @@
   line-height: 41px;
   letter-spacing: -0.89px;
   color: #495057;
-  width: 50%;
   padding-bottom: 70px;
+}
+.footer.small-width .row1-mail h3 {
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0px;
 }
 .footer .row1-mail span {
   font-family: Inter;
@@ -36,7 +49,14 @@
   letter-spacing: -0.64px;
   color: #556ee6;
 }
+.footer.small-width .row1-mail span {
+  font-size: 13px;
+  line-height: 44px;
+}
 .footer .row1-contacts {
+  width: 50%;
+}
+.footer .row1-contacts p {
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -44,10 +64,16 @@
   line-height: 34px;
   letter-spacing: -0.33px;
   color: #3d3d3d;
-  width: 20%;
-  min-width: 200px;
-  margin-left: 0;
-  padding-bottom: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  align-self: center;
+}
+.footer.small-width .row1-contacts p {
+  font-size: 11px;
+  line-height: 18px;
+  padding: 0px;
 }
 .footer .row1-contacts img {
   width: 25px;
@@ -63,8 +89,15 @@
   line-height: 28px;
   letter-spacing: -0.18px;
   color: #495057;
-  margin-left: 15%;
   max-width: 400px;
+}
+.footer.small-width .row1-mail,
+.footer.small-width .row1-contacts,
+.footer.small-width .row2-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
 }
 .footer .row2-copyright {
   font-family: Rubik;

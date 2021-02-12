@@ -4,8 +4,10 @@ import './singleService.scss';
 
 const SingleService = ({ color, text, title }) => {
   const width = useWindowWidth();
+  const widthSize =
+    width > 900 ? '' : width > 600 ? 'tablet-width' : 'small-width';
   return (
-    <div className={`service ${width > 900 ? '' : 'tablet-width'} `}>
+    <div className={`service ${widthSize} `}>
       <div className={`service-title ${color}`}>
         <h3>{title}</h3>
       </div>

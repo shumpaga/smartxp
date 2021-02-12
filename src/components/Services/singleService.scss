@@ -14,6 +14,10 @@
   padding: 10px 10px 0px 20px;
   max-width: 210px;
 }
+.small-width .service-title h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
 .service-title.blue {
   background: #556ee6;
 }
@@ -46,10 +50,17 @@
   color: #000000;
   align-self: center;
 }
+.small-width .service-descr p {
+  font-size: 11px;
+  line-height: 18px;
+}
 .service-descr img {
   padding-right: 50px;
   align-self: center;
 }
 .tablet-width .service-descr img {
   padding-right: 20px;
+}
+.small-width .service-descr img {
+  padding-right: 10px;
 }
