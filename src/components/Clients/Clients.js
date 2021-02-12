@@ -23,7 +23,11 @@ const Clients = () => {
           <span>nous travaillons de l'idée à sa réalisation</span>
           <span>nous apportons une expertise riche et variée</span>
           <span>nous transformons leur entreprise</span>
-          <span>nos solutions sont efficaces, optimales et rapides</span>
+          <span>
+            nos solutions sont efficaces, optimales et
+            <br />
+            rapides
+          </span>
         </TextLoop>
       </div>
       <img
